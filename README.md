@@ -9,8 +9,11 @@ Whenever a file is uploaded to a Cloud Storage bucket, a Pub/Sub message is trig
 ☁️ CLOUD SERVICE USED
 
 Cloud StorageUsed to upload images (e.g. .jpg, .png, .pdf, etc.) to a bucket.
+
 Cloud Pub/SubAutomatically triggered when a new file is uploaded to the bucket. It pushes the file metadata to a Cloud Run endpoint.
+
 Cloud RunRuns a Python microservice that receives metadata, checks file type, and logs whether it's a valid image.
+
 IAM (Identity and Access Management)Grants Pub/Sub permission to securely invoke the Cloud Run service.
 
 🔁 PROJECT FLOW
