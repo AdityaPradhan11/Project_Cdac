@@ -40,18 +40,18 @@ IAM ensures that the Pub/Sub service account has permission to invoke the Cloud 
 ## 📸 Screenshots
 
 ### ✅ Cloud Run Log Output
-![Cloud Run Logs](cloud_run_log-1.png)
-![Cloud Run Logs](cloud_run_log-2.png)
-![Cloud Run Logs](cloud_run_log-a.png)
+![Cloud Run Logs](screenshots/cloud_run_log-1.png)
+![Cloud Run Logs](screenshots/cloud_run_log-2.png)
+![Cloud Run Logs](screenshots/cloud_run_log-a.png)
 
 ### ✅ Cloud Storage Bucket
-![Bucket](storage_bucket_view.png)
+![Bucket](screenshots/storage_bucket_view.png)
 
 ### ✅ Pub/Sub Topic & Subscription
-![Pub/Sub](pubsub_topic.png)
+![Pub/Sub](screenshots/pubsub_topic.png)
 
 ### ✅ IAM Role Binding
-![IAM](IAM_ROLE.png)
+![IAM](screenshots/IAM_ROLE.png)
 
 
 
