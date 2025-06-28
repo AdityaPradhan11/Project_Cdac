@@ -23,5 +23,19 @@ Cloud Storage triggers a Pub/Sub message with metadata about the file.
 Pub/Sub pushes the message to Cloud Run.
 Cloud Run parses the message, checks the file type, and logs either ✅ Valid image or ❌ Invalid type.
 
+🔗 HOW THE SERVICES CONNECT
+
+Here's how each GCP service is connected in this project:
+
+Cloud Storage acts as the entry point. A user uploads an image to a bucket.
+
+That upload triggers a Pub/Sub Topic, which is configured to receive notifications from that specific bucket.
+
+The Pub/Sub Subscription is a push type, meaning it forwards the message to the Cloud Run URL.
+
+Cloud Run hosts a Python API that receives and processes the message.
+
+IAM ensures that the Pub/Sub service account has permission to invoke the Cloud Run service securely
+
 
 
