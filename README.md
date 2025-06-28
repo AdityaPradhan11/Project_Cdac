@@ -37,5 +37,22 @@ Cloud Run hosts a Python API that receives and processes the message.
 
 IAM ensures that the Pub/Sub service account has permission to invoke the Cloud Run service securely
 
+## 📸 Screenshots
+
+### ✅ Cloud Run Log Output
+![Cloud Run Logs](screenshots/cloud_run_log-1.png)
+![Cloud Run Logs](screenshots/cloud_run_log-2.png)
+![Cloud Run Logs](screenshots/cloud_run_log-a.png)
+
+### ✅ Cloud Storage Bucket
+![Bucket](screenshots/storage_bucket_view.png)
+
+### ✅ Pub/Sub Topic & Subscription
+![Pub/Sub](screenshots/pubsub_topic.png)
+
+### ✅ IAM Role Binding
+![IAM](screenshots/IAM_ROLE.png)
+
+
 
 
